@@ -1,10 +1,15 @@
 import type { NextPage } from 'next'
 import Image from 'next/image'
 import Layout from "../components/Layout"
+import Head from "next/head";
 
 const Contact: NextPage = () => {
     return (
         <Layout>
+            <Head>
+                <title>Oliwier Michalik | Contact</title>
+            </Head>
+
             <div className="flex flex-row justify-evenly items-center mt-24">
                 <div
                     className="p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mx-4">

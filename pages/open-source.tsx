@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import GithubCard from "../components/GithubCard";
 import {Key, useEffect, useState} from "react";
 import axios from 'axios';
+import Head from "next/head";
 
 const OpenSource: NextPage = () => {
 
@@ -26,6 +27,11 @@ const OpenSource: NextPage = () => {
 
     return (
         <Layout>
+
+            <Head>
+                <title>Oliwier Michalik | Open Source</title>
+            </Head>
+
             <div className="w-full flex flex-col items-center justify-center">
                 <div className="m-10 text-center">
                     <h1 className="text-gray-700 dark:text-gray-300 font-bold text-4xl">Open Source</h1>
