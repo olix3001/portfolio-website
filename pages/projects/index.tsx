@@ -30,7 +30,7 @@ const Projects: NextPage = () => {
                 <Image width="350vw" height="350vh" src="/empty.svg" alt="not found image" />
                 <div className="flex flex-col items-center justify-center text-center">
                     <h1 className="text-gray-800 dark:text-gray-400 text-6xl mt-5">No Projects</h1>
-                    <p className="text-gray-700 dark:text-gray-500 text-2xl mt-2">I'm still working on putting my projects here.<br/>
+                    <p className="text-gray-700 dark:text-gray-500 text-2xl mt-2">I&apos;m still working on putting my projects here.<br/>
                         To see my projects now:<br/>
                         <a href="https://github.com/olix3001?tab=repositories" className="text-emerald-500 cursor-pointer">Check out my github</a></p>
                 </div>

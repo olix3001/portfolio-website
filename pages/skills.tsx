@@ -16,13 +16,13 @@ const Skills: NextPage = () => {
                 I know next.js and react frameworks for web development (This site is made with next 😎).
             </SkillCard>
             <SkillCard image="/technologies/backend" hasDarkImage={false} title="Backend Technologies" link="backend">
-                My passion is creating backend services and API's, I know many technologies which relate to this topic.
+                My passion is creating backend services and API&apos;s, I know many technologies which relate to this topic.
             </SkillCard>
             <SkillCard image="/technologies/static" hasDarkImage={false} title="Static Websites" link="static">
-                I also know how to make one page static websites 🙄. But I don't recommend doing this these days.
+                I also know how to make one page static websites 🙄. But I don&apos;t recommend doing this these days.
             </SkillCard>
             <SkillCard image="/technologies/crypto" hasDarkImage={true} title="Blockchain Technologies" link="blockchain">
-                I'm interested in blockchain technologies like cryptocurrencies and nft's. I've never actually created one myself, but I know how they work.
+                I&apos;m interested in blockchain technologies like cryptocurrencies and nfts. I&apos;ve never actually created one myself, but I know how they work.
             </SkillCard>
             <SkillCard image="/technologies/git" hasDarkImage={true} title="Git Version Control">
                 I work with git version control command line tool and I know how to use It quick and without causing any problems.

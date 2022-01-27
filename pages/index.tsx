@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         </Head>
 
         <div className="w-11/12 md:w-1/3 flex flex-col items-center text-center md:text-left md:items-start">
-            <h1 className="text-5xl md:text-6xl text-gray-800 dark:text-gray-200 font-bold">Hi 👋 I'm Oliwier</h1>
+            <h1 className="text-5xl md:text-6xl text-gray-800 dark:text-gray-200 font-bold">Hi 👋 I&apos;m Oliwier</h1>
             <p className="text-gray-500 dark:text-gray-500 text-lg md:text-xl mt-8">A passionate Full Stack developer 🚀 with an experience of building Web applications with
                 React.js and backend in Node.js as well as some other cool frameworks and libraries.</p>
             <div>
