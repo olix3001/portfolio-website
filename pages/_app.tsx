@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import {AnimatePresence} from 'framer-motion'
 import {useRouter} from "next/router";
 import {useEffect} from "react";
+import Head from 'next/head';
 
 function MyApp({ Component, pageProps }: AppProps) {
 
@@ -19,6 +20,15 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
       <>
+          <Head>
+              <meta name="description" content="Oliwier's personal portfolio."/>
+              <meta property="og:title" content="Oliwier Michalik" />
+              <meta property="og:site_name" content="Portfolio" />
+              <meta property="og:type" content="website" />
+              <meta property="og:description" content="Oliwier's personal website" />
+              <meta property="og:title" content="Oliwier Michalik" />
+              <meta property="og:image" content="https://olix3001.xyz/preview.png" />
+          </Head>
           <Navbar />
           <a href="https://github.com/olix3001" className="z-50 fixed bottom-3 right-3 text-white bg-[#24292F] hover:bg-[#24292F]/90 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-[#050708]/30 mr-2 mb-2">
               <svg className="mr-2 -ml-1 w-4 h-4" aria-hidden="true" focusable="false" data-prefix="fab"
